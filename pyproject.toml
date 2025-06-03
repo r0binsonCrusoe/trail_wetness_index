@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "cfgrib>=0.9.15.0",
     "folium>=0.19.6",
     "ipykernel>=6.29.5",
     "mapclassify>=2.9.0",

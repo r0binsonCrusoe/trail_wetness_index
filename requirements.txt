@@ -10,6 +10,8 @@ attrs==25.3.0
 botocore==1.37.3
 branca==0.8.1
 certifi==2025.4.26
+cffi==1.17.1
+cfgrib==0.9.15.0
 charset-normalizer==3.4.2
 click==8.2.1
 click-plugins==1.1.1
@@ -21,7 +23,9 @@ cykhash==2.0.1
 cython==3.1.1
 debugpy==1.8.14
 decorator==5.2.1
+eccodes==2.41.0
 executing==2.2.0
+findlibs==0.1.1
 folium==0.19.6
 fonttools==4.58.1
 frozenlist==1.6.0
@@ -59,6 +63,7 @@ propcache==0.3.1
 psutil==7.0.0
 ptyprocess==0.7.0
 pure-eval==0.2.3
+pycparser==2.22
 pygments==2.19.1
 pyogrio==0.11.0
 pyparsing==3.2.3
