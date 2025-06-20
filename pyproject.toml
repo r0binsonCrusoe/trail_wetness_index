@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "cfgrib>=0.9.15.0",
+    "dask[complete]>=2025.5.1",
     "earthaccess>=0.14.0",
     "folium>=0.19.6",
     "h5netcdf>=1.6.1",
