@@ -5,7 +5,12 @@ from pathlib import Path
 
 data_dir = Path("data/trails")
 results = []
-bboxes = [[-101.0000, 28.0000, -95.0000, 32.0000]]
+bboxes = [
+    [-101.0000, 28.0000, -95.0000, 32.0000],
+    [-101.0000, 32.0000, -95.0000, 37.0000],
+    [-95, 25, -89, 31],
+    [-95, 31, -89, 37],
+]
 
 
 trail_filter_mtb = {"route": ["mtb"]}
